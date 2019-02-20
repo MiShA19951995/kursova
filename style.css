@@ -1,0 +1,618 @@
+body{
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0;
+    
+}
+.header{
+    height: 814px;
+    width: 100%;
+    background: url(img/header.png) no-repeat top center; 
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+@font-face{
+    font-family: OpenSansBold;
+    src: url(OpenSansBold.ttf);
+}
+@font-face{
+    font-family: Open-Sans-Semibold;
+    src: url(Open-Sans-Semibold.ttf);
+}
+@font-face{
+    font-family: ProximaNovaCondBold;
+    src: url(ProximaNovaCondBold.ttf);
+}
+@font-face{
+    font-family: ProximaNova-Regular;
+    src: url(ProximaNova-Regular.ttf);
+}
+@font-face{
+    font-family: Proxima Nova-Extrabld;
+    src: url(ProximaNova-Extrabld.ttf);
+}
+@font-face{
+    font-family: ProximaNovaBold;
+    src: url(ProximaNovaBold.otf);
+}
+.logo1{
+    font-family: Proxima Nova-Extrabld;
+    font-size: 60px;
+    font-weight: bold;
+    color:white;
+    text-transform: uppercase;
+    
+}
+.logo a{
+    text-decoration-line: none;
+}
+.logo{
+    margin-top: 48px;
+    margin-left: 74px;
+    
+}
+.head{
+    display: flex;
+    height: 115px;
+    justify-content: space-between;
+    width: 100%;
+}
+.menu{
+   
+    float: right;
+}
+.spmenu{
+    margin-top: 61px;
+    padding-right: 80px;
+}
+.spmenu li{
+	display: inline-block;
+	padding-left: 18px;
+	padding-right: 18px;
+	 
+}
+
+.spmenu a{
+	font-size: 20px;
+	font-family: ProximaNovaCondBold;
+	color: white;
+    text-decoration-line:  none;
+    text-transform: uppercase;
+}
+.headertext{
+    width: 469px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    margin-top: 293px;
+}
+.headertext1{
+    font-size: 30px;
+	font-family: OpenSansBold;
+    color: white;
+    font-weight: bold;
+}
+.headertext2{
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: OpenSansBold;
+    color:white;
+    font-weight: bold;
+}
+.button{
+    margin: auto;
+    margin-top: 32px;
+    text-align: center;
+}
+.buttontext{
+    width: 233px;
+    height: 50px;
+    background-color: #f6705a;
+    border-radius: 5px;
+    border:none;
+    
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+.button a{
+    text-decoration-line: none;
+}
+.tex{
+    margin: auto;
+    margin-top: 28px;
+    text-align: center;
+}
+.tex span{
+    font-size: 16px;
+    color: white;
+    font-family: ProximaNovaCondBold;
+}
+.tex a{
+    text-decoration-color: #a3dfba;
+}
+
+.protsq{
+    width: 100%;
+    height: 746px;
+}
+.proh1{
+    width: 1038px;
+    height: 80px;
+    margin: auto;
+    margin-top: 102px;
+    text-align: center;
+    
+}
+.proh1 span{
+    font-family:Proxima Nova-Extrabld;
+    font-size: 30px;
+    text-transform: uppercase; 
+}
+.probody{
+    display: flex;
+    margin-top: 78px;
+    margin-left: 65px;
+    margin-right: 130px;
+}
+
+/* перший блок*/
+.profunc{
+    width: 368px;
+    height: 442px;
+}
+.propicture{
+    text-align: center;
+}
+.prosp{
+    margin-top: 36px;
+}
+.proh2{
+    font-family: ProximaNovaBold;
+    font-size: 20px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.prosp1{
+    margin-top:21px; 
+   
+}
+.prosp1 p{
+    font-family:ProximaNova-Regular;
+    font-size: 16px;
+    margin: 0;
+}
+.prosp1 li{
+    padding-bottom: 25px;
+    color: #902914;
+    width: 290px;
+}
+.prosp1 span{
+    font-family:ProximaNova-Regular;
+    font-size: 16px;
+    color: black;
+    
+}
+
+
+/* другий блок*/
+
+.profunc1{
+    width: 374px;
+    height: 442px;
+    margin-left: 20px;
+}
+.propicture1{
+    text-align: center;
+    height: 92px;
+}
+.prosp11{
+    margin-top: 36px;
+}
+.proh21{
+    font-family: ProximaNovaBold;
+    font-size: 20px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.prosp2{
+    margin-top:21px; 
+   
+}
+.prosp2 p{
+    font-family:ProximaNova-Regular;
+    font-size: 16px;
+    margin: 0;
+}
+.prosp2 li{
+    padding-bottom: 25px;
+    color: #902914;
+    width: 315px;
+}
+.prosp2 span{
+    font-family:ProximaNova-Regular;
+    font-size: 16px;
+    color: black;
+    
+}
+
+
+/*третій блок*/
+
+
+.profunc2{
+    width: 374px;
+    height: 442px;
+}
+.propicture2{
+    text-align: center;
+    height: 92px;
+}
+.prosp111{
+    margin-top: 36px;
+}
+.proh211{
+    font-family: ProximaNovaBold;
+    font-size: 20px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.prosp3{
+    margin-top:21px; 
+   
+}
+.prosp3 p{
+    font-family:ProximaNova-Regular;
+    font-size: 16px;
+    margin: 0;
+}
+.prosp3 li{
+    padding-bottom: 25px;
+    color: #902914;
+    width: 290px;
+}
+.prosp3 span{
+    font-family:ProximaNova-Regular;
+    font-size: 16px;
+    color: black;
+    
+}
+
+.vidhuk{
+    height: 594px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.z{
+    
+  
+    text-align: center;
+    width: 100%;
+    padding-top: 68px;
+}
+.z1{
+    text-decoration-line: none;
+    
+    margin:0;
+    
+}
+.z span{
+    font-family:OpenSansBold;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+.photo{
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 37px;
+}
+.vidhuktext{
+    width: 730px;
+    margin: auto;   
+}
+.vidhuktext p{
+    text-align: center;
+    font-family:ProximaNovaBold;
+    font-size: 16px;
+    color: #12121e;
+    margin:0;
+    font-weight: bold;
+}
+.zx{
+    text-align: center;
+    width: 285px;
+    margin:auto;
+    margin-top: 40px;
+}
+.zx p:first-child{
+    font-family:ProximaNovaBold;
+    font-size: 16px;
+    color: #12121e;
+    font-weight: bold;
+    margin:0;
+}
+.zx p{
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+.vpic{
+    width: 84px;
+    margin: auto;
+    text-align: center;
+    padding-left: 5px;
+    margin-top: 43px;
+}
+.aboutwork{
+    width: 100%;
+    height: 735px;
+
+}
+.aboutworkpicture {
+ height: 248px;
+ width: 100%;
+ display: flex;
+ text-align: center;
+    margin-top: 77px;
+}
+.picture1{
+    width: 264px;
+    height: 100%;
+    margin:auto;
+    
+}
+.picture1 img{
+    padding-top: 25px;
+    padding-right: 11px;
+    padding-bottom: 9px;
+    background-color: #ccf1df;
+    padding-left: 9px;
+}
+.picture1 span{
+    width: 100px;
+    font-family: ProximaNovaCondBold;
+    font-size: 16px;
+    color: #090909;
+    text-transform: uppercase;
+    text-decoration:underline;
+    text-decoration-color: #d5d5d5;
+
+}
+.aboutworktext{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    height: 43px;
+    
+}
+.aboutworktext span{
+    font-family: ProximaNovaBold;
+    font-size: 18px;
+    color: #050505;
+    text-transform: uppercase;
+}
+
+.aboutworktime{
+    width: 419px;
+    height: 174px;
+    margin: auto;
+    margin-top: 51px;
+    background-color: #ccf1df;
+    border-radius: 10px;
+    
+
+}
+.aboutworktimenum{
+    display: flex;text-align: center;
+    margin: auto;
+    padding-top: 31px;
+    height: 90px;
+    width: 305px;
+    
+    
+
+}
+.qwe{
+    background-color: #ccf1df;
+    width: 61px;
+    height: 100%;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius:6px;
+}
+.qwe span{
+    font-family: OpenSansBold;
+    font-size: 15px;
+    color: #647a7f;
+    font-weight: bold;
+}
+.qwe div{
+    margin-top: 35px;
+}
+.number{
+    width: 61px;
+    height: 100%;
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: #262626;
+    border-radius:6px; 
+}
+
+
+.number span{
+    font-family: OpenSansBold;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.aboutworktimetext{
+    display: flex;
+    width: 237px;
+    margin: auto;
+    text-align: center;
+    margin-top: 28px;
+}
+.aboutworktimetext div{
+    width: 52px;
+    margin:auto;
+    margin-left: 0px;
+}
+
+.aboutworktimetext span{
+    font-family: OpenSansBold;
+    font-size: 15px;
+    color: #231f20;
+    text-transform: uppercase;
+}
+.aboutworktimetext div:nth-child(2){
+    margin-right: 0px;
+    width: 65px;;
+}
+
+
+
+
+
+
+
+
+
+
+.friends{
+    width: 100%;
+    height: 502px;
+    background-color: #f5f5f5;
+}
+.friends1{
+    text-align: center;
+    padding-top: 46px;
+}
+.friends1 span{
+    font-family: OpenSansBold;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.friends2{
+    padding-top: 42px;
+    text-align: center;
+    display: flex;
+    width: 950px;
+    margin: auto;
+}
+.friends2 div{
+    width: 300px;
+    height: 155px;
+   margin: auto;
+
+}
+.friends2 span{
+    font-family: ProximaNovaBold;
+    font-size: 16px;
+    color: #12121e;
+}
+.friends2img1 img{
+    padding-left: 111px;
+    padding-right: 111px;
+}
+
+.friends2img2 img{
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-top: 27px;
+}
+
+.friends2img3 img{
+    padding-left: 69px;
+    padding-right: 69px;
+    padding-top: 33px;
+}
+
+
+
+
+
+
+.friends3{
+    
+    text-align: center;
+    display: flex;
+    width: 568px;
+    margin: auto;
+    padding-top: 62px;
+}
+.friends3img4 {
+    width: 170px;
+    margin-left: 0px;
+}
+.friends3img5 {
+    width: 182px;
+    margin: auto;
+    margin-right: 0px;
+}
+
+.friends3 span{
+    font-family: ProximaNovaBold;
+    font-size: 16px;
+    color: #12121e;
+   
+}
+.pidval{
+    height: 168px;
+    background-color: #00bb5f;
+    width: 100%;
+}
+.pidval0{
+    display: flex;
+    text-align: center;
+    width: 950px;
+    margin: auto;
+    padding-top: 62px;
+}
+
+.pidval1{
+    margin: auto;
+    margin-left: 0px;
+    display: flex;
+    width: 250px;
+}
+.pidval0 span{
+    text-align: left;
+    font-family: ProximaNovaBold;
+    font-size: 18px;
+    color: #fcf8f8;
+}
+
+.pidval2{
+    width: 202px;
+    margin: auto;
+    display: flex;
+}
+.pidval3{
+    width: 180px;
+    margin: auto;
+    margin-right: 0px;
+    display: flex;
+}
+.pidval3img3{
+    margin-right: 5px;
+}
+.pidval1img1{
+    margin-right: 5px;
+}
+.pidval2img2{
+    margin-right: 10px;
+}
